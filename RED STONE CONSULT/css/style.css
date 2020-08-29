@@ -1,0 +1,183 @@
+/* INDEX.HTML */
+
+.navbar-brand {
+  margin-top: -15px;
+}
+
+.navbar .nav-link {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: rgb(212, 205, 205) 3px solid;
+}
+
+/* CAROUSEL */
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url('../img/solar.jpg');
+  background-size: cover;
+}
+.carousel-image-2 {
+  background: url('../img/mastercard.jpg');
+  background-size: cover;
+}
+.carousel-image-3 {
+  background: url('../img/technologyservs.jpg');
+  background-size: cover;
+}
+
+.carousel-image-4 {
+  background: url('../img/capacitybuild.jpg'); 
+  background-size: cover;
+}
+
+.carousel-image-5 {
+  background: url('../img/construction.jpg');
+  background-size: cover;
+}
+
+
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/city-skyline.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/video.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -200px;
+  text-align: center;
+  color: white;
+}
+
+#video-play a {
+  color: white;
+}
+
+.text-height {
+  line-height: -1rem;
+}
+
+/* ABOUT.HTML */
+
+#page-header {
+  height: 200px;
+  background: url('../img/city-skyline.jpg');
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: white;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+.about-img {
+  margin-top: -50px;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.text-black {
+  color: black;
+}
+
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: white;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+
+/* SERVICEs*/
+#page-header-renewable {
+  position: relative;
+  min-height: 200px;
+  background: url('/img/services.jpg');
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: white;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+/* TEAM */
+
+#page-header-team {
+  position: relative;
+  min-height: 200px;
+  background: url('/img/team.jpg');
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: white;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+/* #main-footer {
+  background: black;
+  color: white;
+} */
+
+
+/* FOOTER */
+
+/* .footer{
+  background: #152F4F;
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+} */
